@@ -9,5 +9,5 @@ jobs:
       - name: Hello world
         run: |
           echo "Hello world"
-      - name: ls
-        run: ls
+      - name: date
+        run: dat
