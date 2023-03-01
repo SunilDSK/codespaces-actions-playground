@@ -1,11 +1,13 @@
-name: Hello world
+name: Hello-World
 
 on: [push]
 
 jobs:
-  hello-world:
+  Hello-World:
     runs-on: ubuntu-latest
     steps:
       - name: Hello world
         run: |
           echo "Hello world"
+      - name: pwd
+        run: pwd
